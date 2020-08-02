@@ -1,0 +1,26 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    row-gap: 32px;
+  }
+}
