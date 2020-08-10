@@ -1,6 +1,6 @@
 .cover__subtitle {
   max-width: 360px;
-  margin: 0 412px 245px;
+  margin: 0 auto 245px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -11,20 +11,74 @@
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    margin: 0 332px 195px;
+    margin: 0 auto 195px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    margin: 0 204px 115px;
+    margin: 0 auto 115px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__subtitle {
-    margin: 0 23px 33px;
+    margin: 0 70px 33px;
     font-size: 14px;
     line-height: 1.14;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .cover__subtitle {
+    margin: 0 60px 33px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .cover__subtitle {
+    margin: 0 55px 33px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .cover__subtitle {
+    margin: 0 50px 33px;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .cover__subtitle {
+    margin: 0 45px 33px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__subtitle {
+    margin: 0 40px 33px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .cover__subtitle {
+    margin: 0 35px 33px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .cover__subtitle {
+    margin: 0 30px 33px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .cover__subtitle {
+    margin: 0 25px 33px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .cover__subtitle {
+    margin: 0 20px 33px;
   }
 }

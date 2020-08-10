@@ -9,22 +9,187 @@
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 1235px) {
+  .cover__title {
+    margin: 245px 290px 32px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .cover__title {
+    margin: 245px 270px 32px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .cover__title {
+    margin: 245px 250px 32px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .cover__title {
+    margin: 245px 230px 32px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .cover__title {
+    margin: 245px 210px 32px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .cover__title {
-    margin: 195px 232px 32px;
+    margin: 195px 240px 32px;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .cover__title {
+    margin: 195px 220px 32px;
+  }
+}
+
+@media screen and (max-width: 955px) {
+  .cover__title {
+    margin: 195px 200px 32px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .cover__title {
+    margin: 195px 190px 32px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .cover__title {
+    margin: 195px 170px 32px;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .cover__title {
+    margin: 195px 150px 32px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .cover__title {
+    margin: 195px 130px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    margin: 115px 104px 32px;
+    margin: 115px 110px 32px;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .cover__title {
+    margin: 115px 90px 32px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .cover__title {
+    margin: 115px 70px 32px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .cover__title {
+    margin: 115px 50px 32px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .cover__title {
+    margin: 115px 30px 32px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .cover__title {
+    font-size: 62px;
+    margin: 115px 50px 32px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .cover__title {
+    margin: 115px 40px 32px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .cover__title {
+    margin: 115px 30px 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__title {
+    font-size: 52px;
+    margin: 115px 50px 32px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .cover__title {
+    margin: 115px 40px 32px;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .cover__title {
+    margin: 115px 30px 32px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .cover__title {
+    font-size: 42px;
+    margin: 115px 50px 32px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__title {
-    margin: 33px 35px 16px;
     font-size: 32px;
     line-height: 1.09;
+    margin: 33px 90px 16px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .cover__title {
+    margin: 33px 80px 16px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .cover__title {
+    margin: 33px 70px 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__title {
+    margin: 33px 60px 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cover__title {
+    margin: 33px 50px 16px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .cover__title {
+    margin: 33px 40px 16px;
   }
 }

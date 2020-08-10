@@ -2,16 +2,39 @@
   margin: 0 148px 92px;
 }
 
+@media screen and (max-width: 1190px) {
+  .content__places {
+    margin: 0 70px 92px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .content__places {
-    margin-right: 48px;
-    margin-left: 48px;
+    margin: 0 48px 92px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .content__places {
+    margin: 0 0 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .content__places {
     margin: 0 24px 88px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .content__places {
+    margin: 0 15px 88px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content__places {
+    margin: 0 0 88px;
   }
 }
 

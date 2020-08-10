@@ -1,7 +1,4 @@
 .header__lang-link {
-  max-width: 29px;
-  max-height: 28px;
-  margin: 18px 0 6px 0;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -13,14 +10,11 @@
 }
 
 .header__lang-link:hover {
-  opacity: .5;
+  opacity: .8;
 }
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    width: 22px;
-    height: 24px;
-    margin: 14px 0 4px 0;
     font-size: 18px;
     line-height: 1.33;
   }

@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.63;
+  line-height: 1.67;
 }
 
 .place__paragraph:last-of-type {
@@ -13,20 +13,57 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    width: 456px;
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .place__paragraph {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .place__paragraph {
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    width: 352px;
+    max-width: 300px;
     font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .place__paragraph {
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .place__paragraph {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place__paragraph {
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .place__paragraph {
+    max-width: 160px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .place__paragraph {
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto 24px;
   }
 }

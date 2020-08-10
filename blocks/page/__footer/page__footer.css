@@ -2,13 +2,19 @@
   margin: 0 48px 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .page__footer {
     margin: 0 24px 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 760px) {
+  .page__footer {
+    margin: 0 0 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
   .page__footer {
     margin: 0 118px 24px 16px;
   }
