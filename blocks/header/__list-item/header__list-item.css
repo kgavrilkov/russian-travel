@@ -1,14 +1,14 @@
-.header__link {
+.header__list-item {
   max-width: 30px;
   margin: 18px 0 6px 18px;
 }
 
-.header__link:first-of-type {
+.header__list-item:first-of-type {
   margin-left: 0;
 }
 
 @media screen and (max-width: 320px) {
-  .header__link {
+  .header__list-item {
     max-width: 22px;
     margin: 14px 0 4px 18px;
   }
