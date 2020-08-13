@@ -38,6 +38,12 @@
   }
 }
 
+@media screen and (max-width: 650px) {
+  .content__places {
+    margin: 0 24px 88px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .content__places {
     margin: 0 0 64px;
