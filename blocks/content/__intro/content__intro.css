@@ -10,12 +10,12 @@
 
 @media screen and (max-width: 768px) {
   .content__intro {
-    margin: 0 auto 88px;
+    margin: 0 24px 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .content__intro {
-    margin: 0 auto 64px;
+    margin: 0 16px 64px;
   }
 }
